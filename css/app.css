@@ -4,11 +4,19 @@ width:200px;
 height:200px;
 
 }
-img {
+/* Safari 6.0 - 9.0 */
+.zoom {
     transition:transform 0.25s ease;
+-webkit-filter: grayscale(100%);
+filter:grayscale(100%)
 }
-
-img:hover {
-    -webkit-transform:scale(2.5); /* or some other value */
+/* or some other value */
+.zoom:hover {
+    -webkit-transform:scale(2.5);
     transform:scale(2.5);
+    -webkit-filter: grayscale(0%);
+    filter:grayscale(0%)
+}
+body{
+  background-color:#222323;
 }
