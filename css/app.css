@@ -1,5 +1,5 @@
 /* base css */
-#images{
+.tattoos{
 width:200px;
 height:200px;
 
@@ -20,3 +20,42 @@ filter:grayscale(100%)
 body{
   background-color:#222323;
 }
+
+.facebook{text-align: center;}
+body{ background-color:#222323; }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float:left
+  ;
+}
+
+li a {
+    display: block;
+    color: #f2c530;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    opacity: 1;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li a:hover {
+    background-color:#222323;
+    color:#ededed;
+}
+h3{color: #ededed;
+font-family: 'Quicksand', sans-serif;
+text-align: center;
+font-size: 20px;}
+.photo{text-align: center;
+position: }
+h2{color: 	#db6f08;
+font-family: 'Rye', cursive;
+text-align: center;}
