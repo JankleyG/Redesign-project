@@ -4,11 +4,62 @@ width:200px;
 height:200px;
 
 }
+
 /* Safari 6.0 - 9.0 */
+/*this is for the background color for the image in navigation*/
+.imgNav{
+background-color:#000000;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/*this is for the enlarge animation for the tattoos*/
 .zoom {
     transition:transform 0.25s ease;
--webkit-filter: grayscale(100%);
-filter:grayscale(100%)
+
 }
 /* or some other value */
 .zoom:hover {
@@ -22,7 +73,7 @@ body{
 }
 
 .facebook{text-align: center;}
-body{ background-color:#222323; }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -34,6 +85,78 @@ ul {
 li {
     float:left
   ;
+}
+button{
+  display: block;
+  color: #f2c530;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  opacity: 1;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 25px;
+}
+button:hover{
+  background-color:#222323;
+  color:#ededed;
+}
+li a {
+    display: block;
+    color: #f2c530;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    opacity: 1;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 25px;
+}
+
+li a:hover {
+    background-color:#222323;
+    color:#ededed;
+}
+h3{color: #ededed;
+font-family: 'Quicksand', sans-serif;
+text-align: center;
+font-size: 20px;
+padding-left: 15%;
+padding-right: 15%;
+}
+
+.photo{text-align: center;
+position: }
+h2{
+padding-left: 15%;
+padding-right: 15%;
+  color: 	#db6f08;
+font-family: 'Rye', cursive;
+text-align: center;}
+
+h1{color: 	#db6f08;
+font-family: 'Rye', cursive;
+padding-left: 15%;
+padding-right: 15%;
+}
+h2{color:#f2c530;
+font-family: 'Rye', cursive;
+padding-left: 15%;
+padding-right: 15%;
+}
+h3{color:#f2c530;
+  font-family: 'Quicksand', sans-serif;
+padding-left: 15%;
+padding-right: 15%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navigation {
+  float:left;
 }
 
 li a {
@@ -47,15 +170,15 @@ li a {
 }
 
 li a:hover {
-    background-color:#222323;
-    color:#ededed;
-}
-h3{color: #ededed;
+    background-color:#222323 ;}
+ol{padding-left: 25%;}
+li{color: #ededed;
 font-family: 'Quicksand', sans-serif;
-text-align: center;
-font-size: 20px;}
-.photo{text-align: center;
-position: }
-h2{color: 	#db6f08;
-font-family: 'Rye', cursive;
-text-align: center;}
+line-height: 25px;}
+img {
+
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    width:150px;
+}
