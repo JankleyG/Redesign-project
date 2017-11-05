@@ -5,11 +5,11 @@
 @import url('https://fonts.googleapis.com/css?family=Rye');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
-/*
+
 *{
   outline: 1px blue solid;
 }
-*/
+
 body{
   background-color: #222323;
   background-image: url();
@@ -20,6 +20,7 @@ body{
   font: 30px 'Rye', sans-serif;
   text-align: center;
   background: #f2c530 center;
+  margin: 0 auto;
 
 
 }
