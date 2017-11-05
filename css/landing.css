@@ -39,7 +39,7 @@
 .lndLogo img{
   display: block;
   margin-bottom: 10px;
-  margin-top: 50%;
+  /*margin-top: 70%;*/
 }
 
 .lndLogo a{
@@ -48,7 +48,7 @@
 
 }
 .lndLogo{
-
+  margin-top: 50%;
   background-image: url();
 
 }
