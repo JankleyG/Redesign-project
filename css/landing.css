@@ -1,27 +1,19 @@
 /* base css */
 /*landing page*/
+
+/*font import*/
+@import url('https://fonts.googleapis.com/css?family=Rye');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 /*
 *{
   outline: 1px blue solid;
 }
 */
+body{
+  background-color: #222323;
+  background-image: url();
 
-.lndImg{
-  max-width: 100%;
-  max-height: 100%;
-  margin: 0;
-
-
-}
-.lndGal{
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  margin: 0 auto;
-}
-
-.winSize{
-  max-height: 100%;
 }
 
 .lndButton{
@@ -47,12 +39,14 @@
   margin: 0 auto;
 
 }
+.lndLogo p{
+  display: block;
+  margin: 0 auto;
+}
+
+
 .lndLogo{
   margin-top: 50%;
   background-image: url();
-
-}
-
-.enterSite{
 
 }
