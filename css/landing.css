@@ -1,9 +1,10 @@
 /* base css */
 /*landing page*/
-
+/*
 *{
   outline: 1px blue solid;
 }
+*/
 
 .lndImg{
   max-width: 100%;
@@ -21,4 +22,37 @@
 
 .winSize{
   max-height: 100%;
+}
+
+.lndButton{
+  font: 30px 'Rye', sans-serif;
+  text-align: center;
+  background: #f2c530 center;
+
+
+}
+
+.lndButton:hover{
+  background: #F2EF30;
+}
+
+.lndLogo img{
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 50%;
+}
+
+.lndLogo a{
+  display: block;
+  margin: 0 auto;
+
+}
+.lndLogo{
+
+  background-image: url();
+
+}
+
+.enterSite{
+
 }
