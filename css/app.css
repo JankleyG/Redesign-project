@@ -214,6 +214,7 @@ img {
 
 .artistBorder img{
   /*rgba(52, 54, 54, 1)*/
+  margin-top: 20px;
   height: 100%;
   width: 100%;
   padding: 5px;

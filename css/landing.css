@@ -10,6 +10,11 @@
   outline: 1px blue solid;
 }
 */
+body{
+  background-color: #222323;
+  background-image: url();
+
+}
 
 .lndButton{
   font: 30px 'Rye', sans-serif;
