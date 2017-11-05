@@ -1,4 +1,19 @@
 /* base css */
+
+/*font import*/
+@import url('https://fonts.googleapis.com/css?family=Rye');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+/*box target*/
+/*
+*{
+  outline: solid 1px blue;
+
+}
+*/
+
+
 .tattoos{
 width:200px;
 height:200px;
@@ -68,6 +83,7 @@ background-color:#000000;
     -webkit-filter: grayscale(0%);
     filter:grayscale(0%)
 }
+
 body{
   background-color:#222323;
 }
@@ -175,10 +191,38 @@ ol{padding-left: 25%;}
 li{color: #ededed;
 font-family: 'Quicksand', sans-serif;
 line-height: 25px;}
+
 img {
 
     display: block;
     margin: 0 auto;
     height: 150px;
     width:150px;
+}
+
+.artistBorderOverview{
+  outline: solid 10px #333;
+
+}
+
+.glow:hover{
+    outline: solid 5px #f2c530;
+}
+.artistBorder{
+
+}
+
+.artistBorder img{
+  /*rgba(52, 54, 54, 1)*/
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  outline: solid 10px #333;
+
+}
+.artistBorder h3{
+  display: block;
+  border: solid 10px #333;
+  margin: 10px;
+  padding: 10px;
 }

@@ -6,3 +6,8 @@ var id = $(this).attr('thisid')
        filter: grayscale(0%);
      }
  });
+
+ var link = document.createElement('a');
+ link.textContent = 'Index Page';
+ link.href = 'index.html';
+ document.getElementById('indexLink').appendChild(link);
