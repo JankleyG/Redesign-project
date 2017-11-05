@@ -6,9 +6,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 
-*{
+/**{
   outline: 1px blue solid;
-}
+}*/
 
 body{
   background-color: #222323;
@@ -45,9 +45,10 @@ body{
   margin: 0 auto;
 }
 
-
-.lndLogo{
+/*background-image: url();*/
+.centerLogo{
   margin-top: 50%;
-  background-image: url();
+  margin-left: 50%;
+
 
 }
