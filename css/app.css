@@ -83,6 +83,12 @@ li {
     float:left;
 }
 
+#designed{
+  transition: .5s;
+}
+#designed:hover{
+  letter-spacing: 1px;
+}
 
 .button{
   color: #000000;
